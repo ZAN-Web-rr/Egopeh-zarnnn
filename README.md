@@ -214,16 +214,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🆘 Support
 
-- **Issues**: Report bugs or request features on [GitHub Issues](https://github.com/your-username/zarn/issues)
-- **Documentation**: Check the [Wiki](https://github.com/your-username/zarn/wiki)
-- **Contact**: [your-email@example.com](mailto:your-email@example.com)
+- **Issues**: Report bugs or request features on [GitHub Issues](https://github.com/ZAN-Web-rr/zarn/issues)
+- **Documentation**: Check the [Wiki](https://github.com/ZAN-Web-rr/zarn/wiki)
+- **Contact**: [support@zarnite.com](mailto:support@zarnite.com)
 
 ## 🙏 Acknowledgments
 
 - Flutter team for the amazing framework
 - Firebase for backend services
-- Open source community for the packages used
+- Open source community for the packages used Macjohnson for the awesome job.
 
 ---
 
-**Note**: Remember to replace placeholder values (like `your-username`, `your-email@example.com`) with actual values before deployment.
+

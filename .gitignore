@@ -66,12 +66,15 @@ android/key.properties
 android/app/upload-keystore.jks
 android/app/release-keystore.jks
 android/app/zarn-release-key.jks
+android/app/zarn-release-key.jks.base64
 android/app/*.jks
+android/app/*.jks.base64
 android/app/*.keystore
 android/app/*.lnk
 android/app/storePassword*.txt
 *.keystore
 *.jks
+*.jks.base64
 *.p12
 
 # Android build and signing artifacts

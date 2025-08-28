@@ -61,12 +61,24 @@ lib/config/secrets.dart
 .env.production
 .env.development
 
-# Android signing files
+# Android signing files and keystores
 android/key.properties
 android/app/upload-keystore.jks
 android/app/release-keystore.jks
+android/app/zarn-release-key.jks
+android/app/*.jks
+android/app/*.keystore
 *.keystore
 *.jks
+*.p12
+
+# Android build and signing artifacts
+android/app/build/
+android/build/
+android/gradle/
+android/.gradle/
+android/local.properties
+android/captures/
 
 # iOS signing and certificates
 ios/Runner/GoogleService-Info.plist
@@ -74,26 +86,52 @@ ios/Runner/Info.plist.backup
 ios/Pods/
 ios/.symlinks/
 ios/Flutter/flutter_export_environment.sh
+ios/Runner.xcworkspace/xcuserdata/
+ios/Runner.xcodeproj/xcuserdata/
+ios/Runner.xcodeproj/project.xcworkspace/xcuserdata/
 
 # Platform specific build outputs
 **/build/
 **/dist/
 **/release/
+**/intermediates/
+**/outputs/
 
 # Temporary and cache files
 *.tmp
 *.temp
 .cache/
 .gradle/
-**/intermediates/
 **/tmp/
+gradle-wrapper.properties.backup
 
 # IDE and OS specific
 .vscode/settings.json
 .vscode/launch.json
 **/reports/
+.project
+.classpath
+.factorypath
+.settings/
 
 # Logs and crash reports
 *.log
 crashes/
 *.crash
+*.dmp
+
+# MacOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux specific
+*~
+.nfs*

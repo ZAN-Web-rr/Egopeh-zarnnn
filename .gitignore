@@ -68,6 +68,8 @@ android/app/release-keystore.jks
 android/app/zarn-release-key.jks
 android/app/*.jks
 android/app/*.keystore
+android/app/*.lnk
+android/app/storePassword*.txt
 *.keystore
 *.jks
 *.p12

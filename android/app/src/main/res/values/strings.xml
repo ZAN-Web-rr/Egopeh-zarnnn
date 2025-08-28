@@ -1,0 +1,4 @@
+<resources>
+  <!-- This must exactly match the web client ID in your google-services.json -->
+  <string name="default_web_client_id">945524665434-t289gedvgou9vu9lbt0fapfak9bp8tfa.apps.googleusercontent.com</string>
+</resources>

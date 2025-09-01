@@ -1,4 +1,4 @@
-package com.example.zarn
+package com.zarnite.zarn
 
 import io.flutter.embedding.android.FlutterActivity
 

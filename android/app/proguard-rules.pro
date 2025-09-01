@@ -31,3 +31,16 @@
 -keep class io.flutter.view.**  { *; }
 -keep class io.flutter.**  { *; }
 -keep class io.flutter.plugins.**  { *; }
+
+# Play Core / Dynamic Feature rules
+-dontwarn com.google.android.play.core.**
+-keep class com.google.android.play.core.** { *; }
+
+# R8 compatibility rules for Flutter
+-dontwarn io.flutter.embedding.engine.deferredcomponents.**
+-keep class io.flutter.embedding.engine.deferredcomponents.** { *; }
+
+# Keep Flutter specific classes that R8 might remove
+-keep class io.flutter.embedding.android.FlutterActivity { *; }
+-keep class io.flutter.embedding.android.FlutterFragment { *; }
+-keep class io.flutter.embedding.engine.FlutterEngine { *; }

@@ -139,10 +139,27 @@ assets/
 
 ## 🔒 Security & Privacy
 
-- **Firebase Config**: `google-services.json` and `GoogleService-Info.plist` are gitignored
-- **API Keys**: Stored in separate config files (gitignored)
-- **Signing Keys**: Android keystore files are excluded from version control
-- **Environment Variables**: `.env` files are gitignored
+**⚠️ Important:** This repository does NOT contain sensitive credentials. All configuration files with API keys, passwords, and signing certificates are excluded via `.gitignore`.
+
+### Required Setup Files (Not Included):
+- ✅ `android/app/google-services.json` - Firebase configuration
+- ✅ `android/key.properties` - Android signing credentials
+- ✅ `android/app/*.jks` - Keystore files
+- ✅ `.env` files - Environment variables
+
+### For New Developers:
+1. See `SECURITY.md` for complete setup instructions
+2. Use template files (`*.template`) as reference
+3. Never commit sensitive files to version control
+4. Contact your team lead for credential access
+
+### Security Features:
+- 🔐 Phone number authentication via Firebase
+- 🔥 Firebase Security Rules for data protection
+- 🛡️ Encrypted data storage
+- 🚫 No hardcoded secrets in codebase
+
+**📖 Read `SECURITY.md` for detailed security guidelines.**
 
 ## 🧪 Testing
 
@@ -212,13 +229,7 @@ The project includes GitHub Actions workflows for:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🆘 Support
 
-- **Issues**: Report bugs or request features on [GitHub Issues](https://github.com/ZAN-Web-rr/zarn/issues)
-- **Documentation**: Check the [Wiki](https://github.com/ZAN-Web-rr/zarn/wiki)
-- **Contact**: [support@zarnite.com](mailto:support@zarnite.com)
-
-## 🙏 Acknowledgments
 
 - Flutter team for the amazing framework
 - Firebase for backend services
